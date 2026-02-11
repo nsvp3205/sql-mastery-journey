@@ -1,0 +1,9 @@
+Fetch the user_ids of users who have liked at least one video uploaded by channel_id = 352
+in the year 2018 but have NOT subscribed to that channel.
+
+Conditions:
+- Consider reaction_type = 'LIKE' as liked.
+- Extract the year from reacted_at.
+- Subscription data is stored in channel_user.
+- Return unique user_ids.
+- Sort results in ascending order.
