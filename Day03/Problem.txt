@@ -1,0 +1,10 @@
+Fetch the user_ids of users who liked videos from at least 2 different channels
+in the year 2021 but have NOT subscribed to any channel.
+
+Conditions:
+- Consider reaction_type = 'LIKE'
+- Extract year from reacted_at
+- "At least 2 different channels" means COUNT(DISTINCT channel_id) >= 2
+- Exclude users who appear in channel_user
+- Return unique user_ids
+- Sort in ascending order
