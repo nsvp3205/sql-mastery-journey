@@ -1,0 +1,10 @@
+Fetch the user_ids of users who liked videos from exactly 1 channel
+in the year 2022 and have subscribed to at least 1 channel.
+
+Conditions:
+- Consider reaction_type = 'LIKE'
+- Extract year from reacted_at
+- "Exactly 1 channel" means COUNT(DISTINCT channel_id) = 1
+- User must have at least one subscription in channel_user
+- Return unique user_ids
+- Sort results in ascending order
