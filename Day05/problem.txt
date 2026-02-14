@@ -1,0 +1,6 @@
+Fetch the user_ids of users who:
+- Liked at least 3 videos in 2021
+- From at least 2 different channels
+- And subscribed to exactly 1 channel
+
+Return unique user_ids sorted in ascending order.
