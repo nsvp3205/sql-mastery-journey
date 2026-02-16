@@ -1,0 +1,6 @@
+Fetch the user_id and total number of videos liked by each user.
+
+Conditions:
+- Count the number of liked videos per user.
+- Return user_id and total_likes.
+- Sort results in ascending order of user_id.
