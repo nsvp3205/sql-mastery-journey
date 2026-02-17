@@ -1,20 +1,20 @@
 SELECT
-  ul.user_id
+  user_likes.user_id
 FROM
-  user_likes ul
-  JOIN video v
-    ON ul.video_id = v.video_id
+  user_likes
+  JOIN video
+    ON user_likes.video_id = video.video_id
 WHERE
-  v.channel_id = 200
-  AND ul.user_id NOT IN (
+  video.channel_id = 200
+  AND user_likes.user_id NOT IN (
     SELECT
-      ul2.user_id
+      user_likes.user_id
     FROM
-      user_likes ul2
-      JOIN video v2
-        ON ul2.video_id = v2.video_id
+      user_likes
+      JOIN video
+        ON user_likes.video_id = video.video_id
     WHERE
-      v2.channel_id = 200
+      video.channel_id = 200
   )
 GROUP BY
-  ul.user_id;
+  user_likes.user_id;
