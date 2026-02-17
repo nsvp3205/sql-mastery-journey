@@ -1,0 +1,9 @@
+Fetch the user_id and total number of videos liked in 2022 by each user,
+but return only those users who liked at least 3 videos in 2022.
+
+Conditions:
+- reaction_type = 'LIKE'
+- Extract year from reacted_at
+- Group by user_id
+- HAVING COUNT(video_id) >= 3
+- Sort in ascending order of user_id
