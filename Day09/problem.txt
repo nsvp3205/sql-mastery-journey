@@ -1,0 +1,9 @@
+Fetch the user_id and total number of videos liked by each user,
+but return only those users who liked videos from at least 2 different channels.
+
+Conditions:
+- reaction_type = 'LIKE'
+- Join user_likes with video to access channel_id
+- Group by user_id
+- HAVING COUNT(DISTINCT video.channel_id) >= 2
+- Sort in ascending order of user_id
