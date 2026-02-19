@@ -1,0 +1,9 @@
+Fetch the user_id of users who liked at least 2 videos
+but have not subscribed to any channel.
+
+Conditions:
+- reaction_type = 'LIKE'
+- Group by user_id
+- HAVING COUNT(video_id) >= 2
+- Exclude users present in channel_user
+- Sort results in ascending order
