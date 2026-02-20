@@ -1,0 +1,11 @@
+Fetch the user_id of users who liked videos from at least 2 different channels
+but are subscribed to exactly 1 channel.
+
+Conditions:
+- reaction_type = 'LIKE'
+- Join user_likes with video to access channel_id
+- Group by user_id
+- HAVING COUNT(DISTINCT video.channel_id) >= 2
+- Use subquery on channel_user
+- Subscription condition: COUNT(channel_id) = 1
+- Sort in ascending order
