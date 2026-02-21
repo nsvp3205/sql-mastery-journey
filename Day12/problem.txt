@@ -1,0 +1,13 @@
+Fetch the user_id of users who:
+- Liked at least 3 videos in 2022
+- And are subscribed to at least 2 channels
+
+Conditions:
+- reaction_type = 'LIKE'
+- Extract year from reacted_at
+- Group by user_id on likes side
+- HAVING COUNT(video_id) >= 3
+- Use subquery on channel_user
+- GROUP BY user_id on subscription side
+- HAVING COUNT(channel_id) >= 2
+- Sort results in ascending order
