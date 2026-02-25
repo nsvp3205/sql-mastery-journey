@@ -1,0 +1,12 @@
+Fetch the user_id of users who:
+- Liked at least 2 videos in 2023
+- And liked videos from exactly 1 channel in 2023
+
+Conditions:
+- reaction_type = 'LIKE'
+- Extract year from reacted_at
+- Join user_likes with video to access channel_id
+- Group by user_id
+- HAVING COUNT(video_id) >= 2
+- HAVING COUNT(DISTINCT video.channel_id) = 1
+- Sort results in ascending order
