@@ -1,0 +1,2 @@
+Get the rating variance of products in the "WATCH" category
+-Rating variance is the difference between average rating and rating of a product
