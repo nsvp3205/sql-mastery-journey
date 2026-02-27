@@ -1,0 +1,8 @@
+Fetch the user_id and total number of videos liked in 2023 by each user.
+
+Conditions:
+- reaction_type = 'LIKE'
+- Extract year from reacted_at
+- Group by user_id
+- Return only users who liked at least 1 video
+- Sort results in ascending order of user_id
