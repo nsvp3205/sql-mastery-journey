@@ -1,0 +1,1 @@
+Fetch the user_id of users who have never liked any video.
