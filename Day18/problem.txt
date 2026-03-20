@@ -1,0 +1,10 @@
+The objective is to analyze the financial performance of movies in a dataset. 
+For each movie, we need to calculate the Net Profit (Collection minus Budget) and determine the applicable Tax Amount based on a progressive scale.
+
+The tax rates are defined as follows:
+
+10% Tax: For profits up to 100 Cr.
+
+15% Tax: For profits between 100 Cr and 500 Cr (inclusive).
+
+18% Tax: For profits exceeding 500 Cr.
