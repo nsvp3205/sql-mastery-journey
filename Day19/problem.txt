@@ -1,0 +1,5 @@
+Between 2010 & 2020, find the number of videos released in each of the below genres.
+
+Note:
+genre_ids : 201, 202, 204, 205, 206, 207
+Sort the output in the descending order of no_of_videos, and then in the ascending order of genre_id.
