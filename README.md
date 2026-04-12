@@ -1,2 +1,2 @@
 # sql-mastery-journey
-Daily SQL practice focused on mastering JOINs, subqueries, and problem-solving logic.
+SQL-based data analysis repository featuring business case studies, real-world problem solving, and advanced query techniques (joins, subqueries, aggregations)
