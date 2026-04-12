@@ -1,2 +1,3 @@
 # sql-mastery-journey
-SQL-based data analysis repository featuring business case studies, real-world problem solving, and advanced query techniques (joins, subqueries, aggregations)
+
+This repository demonstrates hands-on SQL problem solving using real-world datasets, including sales analysis, customer insights, and business reporting scenarios.
